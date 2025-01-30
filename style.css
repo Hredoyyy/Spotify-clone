@@ -212,3 +212,46 @@ p{
     border-top: 1px solid white;
     opacity: 0.5;
 }
+
+.player{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.album{
+    width: 25%;
+}
+
+.music-player{
+    width: 50%;
+}
+
+.control{
+    width: 25%;
+}
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player-control-icon{
+    height: 1rem;
+    margin-left: 1.5rem;
+    opacity: .7;
+}
+.player-control-icon:hover {
+    opacity: 1;
+
+}
+
+.playback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar{
+    width: 70%;
+}
